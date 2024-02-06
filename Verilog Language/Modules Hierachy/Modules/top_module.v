@@ -4,7 +4,7 @@ module top_module(
     output out 
 );
 
-    mod_a instance(
+    mod_a inst1(
         .in1(a),
         .in2(b),
         .out(out)
