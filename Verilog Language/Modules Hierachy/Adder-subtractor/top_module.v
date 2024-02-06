@@ -9,7 +9,7 @@ module top_module(
 
     add16 inst1(
         .a(a[15:0]),
-        .b({32{sub}} ^ b[15:0]),
+        .b({16{sub}} ^ b[15:0]),
         .cin(sub),
         .sum(sum[15:0]),
         .cout(temp)
