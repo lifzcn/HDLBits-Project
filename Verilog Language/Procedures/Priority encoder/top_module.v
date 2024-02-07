@@ -4,7 +4,7 @@ module top_module(
 );
 
     always @(*) begin
-        case(in)
+        casex(in)
             4'b???1:
                 pos = 2'b00;
             4'b??10:
